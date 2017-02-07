@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <!--android:checkable="true"   为了能够每个都能点击，所有的都要设置checkable="true"
+
+        -->
+        <item
+            android:id="@+id/nav_home"
+            android:checkable="true"
+            android:icon="@mipmap/ic_dashboard"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_messages"
+            android:checkable="true"
+            android:icon="@mipmap/ic_event"
+            android:title="Messages"/>
+        <item
+            android:id="@+id/nav_friends"
+            android:checkable="true"
+            android:icon="@mipmap/ic_headset"
+            android:title="Friends"/>
+        <item
+            android:id="@+id/nav_discussion"
+            android:checkable="true"
+            android:icon="@mipmap/ic_forum"
+            android:title="Discussion"/>
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:id="@+id/subitem1"
+                android:checkable="true"
+                android:icon="@mipmap/ic_dashboard"
+                android:title="Sub item 1"/>
+            <item
+                android:id="@+id/subitem2"
+                android:checkable="true"
+                android:icon="@mipmap/ic_forum"
+                android:title="Sub item 2"/>
+        </menu>
+    </item>
+
+</menu>

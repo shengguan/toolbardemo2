@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.sample.toolbar"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:replace="android:icon"
+        android:theme="@style/Theme.DesignDemo">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.ToolBarDemoActivity"/>
+        <activity android:name=".activity.CardviewDemo"/>
+        <activity android:name=".activity.ZoomRecycleview"/>
+        <activity android:name=".activity.PullZoomViewActivity"/>
+        <activity android:name=".activity.RefreshListDemo"/>
+        <activity android:name=".activity.ParallaxToolbarScrollViewActivity"/>
+        <activity android:name=".activity.DemoActivity"/>
+        <activity android:name=".activity.ToolBarWithImageActivity"/>
+    </application>
+
+</manifest>

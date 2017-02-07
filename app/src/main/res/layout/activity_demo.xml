@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+>
+
+    <FrameLayout android:id="@+id/demo_container"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_above="@+id/demo_group"
+    />
+
+
+    <RadioGroup android:id="@+id/demo_group"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+    >
+
+        <RadioButton
+            android:id="@+id/demo_rb1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_tabview_selector_1"
+            android:button="@null"/>
+
+        <RadioButton
+            android:id="@+id/demo_rb2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_tabview_selector_2"
+            android:button="@null"/>
+        <RadioButton
+            android:id="@+id/demo_rb3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_tabview_selector_3"
+            android:button="@null"/>
+        <RadioButton
+            android:id="@+id/demo_rb4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bottom_tabview_selector_4"
+            android:button="@null"/>
+    </RadioGroup>
+</RelativeLayout>

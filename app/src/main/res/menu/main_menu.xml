@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/setting"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="设置"
+    />
+    <item
+        android:id="@+id/contantus"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="联系我们"
+    />
+    <item
+        android:id="@+id/more"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="更多"
+    />
+
+
+</menu>
