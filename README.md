@@ -1,0 +1,2 @@
+# toolbardemo2
+集合了ToolBar使用方法，多个Toolbar在fragment的使用，toolbar的隐藏等
